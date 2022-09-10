@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: gcs
+    description: weather data from opendata
+    database: dbt-example-356908
+    tables:
+      - name: weather
