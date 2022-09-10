@@ -6,3 +6,4 @@ sources:
     database: dbt-example-356908
     tables:
       - name: weather
+      - name: ine
