@@ -35,4 +35,4 @@ models:
   dbt_with_fivetran:
     # Config indicated by + and applies to all files under models/example/
     datawarehouse:
-      +materialized: view
+      +materialized: table
