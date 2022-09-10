@@ -28,6 +28,7 @@ t3 AS (
 t4 AS (
   SELECT
     year,
+    prefecture,
     SUM(
       CASE
         WHEN month = 1 THEN temperature
