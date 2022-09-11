@@ -94,7 +94,6 @@ t4 AS (
 )
 SELECT
   ine.planted_area,
-  ine.prefecture,
   ine.yield,
   t4.*
 FROM
