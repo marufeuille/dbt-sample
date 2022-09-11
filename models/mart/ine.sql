@@ -98,7 +98,7 @@ SELECT
   ine.yield,
   t4.*
 FROM
-  {{ source('gcs', 'ine') }} AS ine
+  {{ source('data_lake', 'ine') }} AS ine
 JOIN
   t4
 ON
