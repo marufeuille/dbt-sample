@@ -94,7 +94,7 @@ t4 AS (
 )
 SELECT
   ine.planted_area,
-  ine.region,
+  ine.prefecture,
   ine.yield,
   t4.*
 FROM
@@ -102,5 +102,5 @@ FROM
 JOIN
   t4
 ON
-  ine.region = t4.prefecture
-  AND ine.ymd = t4.year
+  ine.prefecture = t4.prefecture
+  AND ine.tear = t4.year

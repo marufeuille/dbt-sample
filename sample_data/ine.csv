@@ -1,4 +1,4 @@
-ymd,region,planted_area,yield_per_10a,yield,yield_per_10a_agr,yield_agr,planted_are_for_foods,yield_for_foods
+year,prefecture,planted_area,yield_per_10a,yield,yield_per_10a_agr,yield_agr,planted_are_for_foods,yield_for_foods
 2021,全国,"1,403,000",539,"7,563,000",515,101,"1,303,000","7,007,000"
 2021,北海道,"96,100",597,"573,700",570,108,"88,400","527,700"
 2021,都府県,"1,307,000",535,"6,989,000",511,100,"1,215,000","6,479,000"
