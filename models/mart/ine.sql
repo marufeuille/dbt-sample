@@ -103,4 +103,4 @@ JOIN
   t4
 ON
   ine.prefecture = t4.prefecture
-  AND ine.tear = t4.year
+  AND ine.year = t4.year
