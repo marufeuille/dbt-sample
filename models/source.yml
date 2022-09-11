@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: gcs
+  - name: data_lake
     description: weather data from opendata
     database: dbt-example-356908
     tables:
